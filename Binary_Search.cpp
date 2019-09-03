@@ -1,4 +1,5 @@
 #include <iostream>
+//This program finds an element in an array using binary search
 
 using namespace std;
 
