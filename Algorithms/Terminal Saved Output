@@ -1,0 +1,510 @@
+Last login: Wed Aug 28 12:26:54 on ttys000
+apples-MacBook-Pro-2:~ proRam$ cd Documents/CB_Resources/C\:C++_Course/
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen
+clang: error: no such file or directory: 'nqueen'
+clang: error: no input files
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:7:36: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                   ^
+nqueen_bitset.cpp:7:32: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                               ^
+nqueen_bitset.cpp:7:49: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                ^
+nqueen_bitset.cpp:7:47: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                              ^
+nqueen_bitset.cpp:7:62: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                             ^
+nqueen_bitset.cpp:7:60: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                           ^
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:48:14: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+             ^
+nqueen_bitset.cpp:48:28: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+                           ^~~~~~~
+nqueen_bitset.cpp:48:46: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+                                             ^
+nqueen_bitset.cpp:48:57: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+                                                        ^
+nqueen_bitset.cpp:53:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:54:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings and 7 errors generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:7:36: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                   ^
+nqueen_bitset.cpp:7:32: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                               ^
+nqueen_bitset.cpp:7:49: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                ^
+nqueen_bitset.cpp:7:47: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                              ^
+nqueen_bitset.cpp:7:62: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                             ^
+nqueen_bitset.cpp:7:60: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                           ^
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:48:14: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+             ^
+nqueen_bitset.cpp:48:28: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+                           ^~~~~~~
+nqueen_bitset.cpp:48:46: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+                                             ^
+nqueen_bitset.cpp:48:57: error: variable-sized object may not be initialized
+    bool sol[n][n]={0}, dc[2*n - 1 ]={1}, cc[n]={1}, rc[n]={1} ;
+                                                        ^
+nqueen_bitset.cpp:53:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:54:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings and 7 errors generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:7:36: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                   ^
+nqueen_bitset.cpp:7:32: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                               ^
+nqueen_bitset.cpp:7:49: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                ^
+nqueen_bitset.cpp:7:47: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                              ^
+nqueen_bitset.cpp:7:62: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                             ^
+nqueen_bitset.cpp:7:60: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                           ^
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:48:30: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[(2*n - 1)]={1}, cc[n]={1}, rc[n]={1} ;
+                             ^~~~~~~~~
+nqueen_bitset.cpp:48:49: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[(2*n - 1)]={1}, cc[n]={1}, rc[n]={1} ;
+                                                ^
+nqueen_bitset.cpp:48:60: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[(2*n - 1)]={1}, cc[n]={1}, rc[n]={1} ;
+                                                           ^
+nqueen_bitset.cpp:53:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:54:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings and 6 errors generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:7:36: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                   ^
+nqueen_bitset.cpp:7:32: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                               ^
+nqueen_bitset.cpp:7:49: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                ^
+nqueen_bitset.cpp:7:47: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                              ^
+nqueen_bitset.cpp:7:62: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                             ^
+nqueen_bitset.cpp:7:60: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[(r]==0 || cc[(c]==0 )
+                                                           ^
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:48:30: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[n]={1}, cc[n]={1}, rc[n]={1} ;
+                             ^
+nqueen_bitset.cpp:48:41: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[n]={1}, cc[n]={1}, rc[n]={1} ;
+                                        ^
+nqueen_bitset.cpp:48:52: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[n]={1}, cc[n]={1}, rc[n]={1} ;
+                                                   ^
+nqueen_bitset.cpp:53:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:54:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings and 6 errors generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:8:36: error: expected ')'
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[r]==0 || cc[c]==0 )
+                                   ^
+nqueen_bitset.cpp:8:32: note: to match this '('
+    if( dc[(r-c)+n-1]==0 || dc[(r+c]==0 || rc[r]==0 || cc[c]==0 )
+                               ^
+nqueen_bitset.cpp:20:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:54:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:55:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings and 1 error generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:20:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:54:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:55:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+4
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+0
+libc++abi.dylib: terminating with uncaught exception of type std::length_error: vector
+Abort trap: 6
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:48:30: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[(2*n - 1)]={1}, cc[n]={1}, rc[n]={1} ;
+                             ^~~~~~~~~
+nqueen_bitset.cpp:48:49: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[(2*n - 1)]={1}, cc[n]={1}, rc[n]={1} ;
+                                                ^
+nqueen_bitset.cpp:48:60: error: variable-sized object may not be initialized
+    bool sol[10][10]={0}, dc[(2*n - 1)]={1}, cc[n]={1}, rc[n]={1} ;
+                                                           ^
+nqueen_bitset.cpp:53:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:54:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings and 3 errors generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:53:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:54:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+4
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:53:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:54:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+4
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:54:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:55:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+4
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:19:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:54:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:55:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+4
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:20:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:54:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:55:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+4
+Hey!
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:23:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:57:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:58:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+4
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:23:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:57:11: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:58:15: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+5
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:23:11: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:59:11: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:60:15: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+5
+0 0Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:23:11: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:59:11: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:60:15: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+5
+0 0Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ g++ nqueen_bitset.cpp 
+nqueen_bitset.cpp:23:11: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+    for ( auto k = 0 ; k < n ; ++k ) {
+          ^
+nqueen_bitset.cpp:63:11: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+    for ( auto i = 0 ; i < n ; ++i ) {
+          ^
+nqueen_bitset.cpp:64:15: warning: 'auto' type specifier is a C++11 extension
+      [-Wc++11-extensions]
+        for ( auto j = 0 ; j < n ; ++j )
+              ^
+3 warnings generated.
+apples-MacBook-Pro-2:C:C++_Course proRam$ ./a.out
+5
+1 1Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+Hey!
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+apples-MacBook-Pro-2:C:C++_Course proRam$ 

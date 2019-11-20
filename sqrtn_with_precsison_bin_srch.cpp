@@ -18,10 +18,9 @@ int sqrt_floor( int num ) {
 
 }
 
-int main() {
+int isP( int n ) {
 
-    int n,i=0;
-    cin >> n;
+    int i=0;
 
     float lo = sqrt_floor( n );
     float hi = lo + 1 ;
