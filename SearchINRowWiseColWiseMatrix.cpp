@@ -18,7 +18,7 @@ int main() {
     int matrix[n][n] ;
 
     for ( auto i : matrix ) 
-        for ( auto j = 0 ; j < n ; ++j )
+        for ( int j = 0 ; j < n ; ++j )
             cin >>  i[j] ;
 
     cin >> x ;

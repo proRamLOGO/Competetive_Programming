@@ -13,6 +13,13 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    //Code Here
+    int t ;
+    cin >> t ;
+
+    while ( t-- ) {
+
+        // CODE HERE
+
+    }
 
 }

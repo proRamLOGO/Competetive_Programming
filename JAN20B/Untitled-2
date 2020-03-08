@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+
+using namespace std;  
+
+string temp( string input ) {  
+    
+    if( input.length() == 0 ) {
+        return "" ;
+    }
+
+    string ret = temp(input.substr(1),a+1);  
+    if ( input[0] == 'x')
+        return ret ;
+    else {
+        string x = input[0] ;
+        return x+ret ;
+    }
+}
+
+string removeX(string input) {
+    return temp(input,0);      
+}
