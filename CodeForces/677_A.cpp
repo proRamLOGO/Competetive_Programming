@@ -30,11 +30,20 @@ int32_t main() {
     cin.tie(NULL) ; cout.tie(NULL) ;
 
     int t ;
-    cin >> t ;
-
+    t=1; 
     while( t-- ) {
         
-        //Code Here
+        int n , h ;
+        cin >> n >> h ;
+        vector<int> v(n) ;
+        int ans = n ;
+        for ( int i = 0 ; i < n ; ++i ) {
+            cin >> v[i] ;
+            if ( v[i] > h ) 
+                ++ans ;
+        }   
+
+        cout << ans << endl ;
 
     }
 

@@ -13,7 +13,7 @@
 using namespace std;
  
 typedef long long ll;
-typedef unsigned long long ull;
+typedef unsigned long long int ulli;
 typedef pair<ll, ll> pll;
 typedef vector<ll> vll;
 typedef vector<pll> vpll;
@@ -29,12 +29,39 @@ int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL) ; cout.tie(NULL) ;
 
-    int t ;
-    cin >> t ;
-
+    int t=1 ;
+    // cin >> t ;
     while( t-- ) {
         
-        //Code Here
+        ulli n, nn;
+        cin >> n ;
+        nn=n ;
+        // if ( n==1 ) {
+        //     cout << "1\n0" << endl ;
+        //     continue ;
+        // }
+
+        ulli ans = 1 ;
+        int cnt=0 ;
+        for ( ulli i = 2 ; cnt < 2 and i*i <= n ; ++i ) {
+            if ( ans==1 and n%i == 0 )
+                ans *= i ;
+            while( n%i == 0 ) {
+                n /= i, ++cnt ;
+            }
+        }
+
+        if ( n > 1 )
+            ++cnt ;
+
+        if ( ans == 1 ) ans=0 ;
+        else ans *= (nn/ans) ;
+
+        if ( cnt == 2 ) {
+            cout << 2 << endl ;
+        } else {
+            cout << 1 << endl << ans << endl ;
+        }
 
     }
 

@@ -30,11 +30,35 @@ int32_t main() {
     cin.tie(NULL) ; cout.tie(NULL) ;
 
     int t ;
-    cin >> t ;
-
+    t=1; 
     while( t-- ) {
         
-        //Code Here
+        int n;
+        cin >> n ;
+        vector<int> v(n) ;
+        
+        for ( int i = 0 ; i < n ; ++i ) {
+            cin >> v[i] ;
+        }   
+        
+        int ans = 0 ;
+
+        for ( int i = 0 ; i < n ; ++i ) {
+            int temp = 1 ;
+            
+            //go right 
+            for ( int j = i+1 ; j < n and v[j] <= v[j-1] ; ++j, ++temp ) 1;
+            
+            //go left 
+            for ( int j = i-1 ; j >= 0 and v[j] <= v[j+1] ; --j, ++temp )1;
+            
+            
+            ans = max(ans,temp) ;
+
+        }
+
+
+        cout << ans << endl ;
 
     }
 
