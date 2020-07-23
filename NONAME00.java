@@ -8,13 +8,13 @@ class Solution {
         System.setIn( new FileInputStream( new File("input.txt") ) ) ;
         System.setOut( new PrintStream( new File("output.txt") ) ) ;
 
-        Scanner in = new Scanner(System.in) ;
- 
+        Scanner in = new Scanner(System.in);
+
         int t = in.nextInt() ;
 
         while ( t-- != 0 ) {
 
-            // Code Here
+            // Code Here ;
 
         }
 
